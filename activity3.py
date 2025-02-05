@@ -1,0 +1,9 @@
+amount=int(input("Please enter the amount:"))
+note_100=amount//100
+note_50=(amount%100)//50
+note_10=((amount%100)%50)//10
+coin=(((amount%100)%50)%10)//1
+print("100 rupees =",note_100)
+print("50 rupees =",note_50)
+print("10 rupees =",note_10)
+print("coin  =",coin)
